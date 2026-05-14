@@ -1,25 +1,25 @@
 [
   {
     "title": "Build a wheel module",
-    "description": "Assemble a single drive pod: drive motor, gearbox, and 4\" traction wheel. Build six of these in total — three per side.",
+    "description": "Assemble a single drive pod: drive motor, gearbox, and 4\" traction wheel. Build four of these in total — two per side. Breakdown on next step.",
     "image": "images/step-02.png",
     "alt": "Close-up of a single drive motor, gearbox, and 4-inch traction wheel subassembly"
   },
   {
     "title": "Drive pod reference drawing",
-    "description": "Use this drawing for hardware callouts, fastener sizes, and orientation detail while assembling each drive pod.",
+    "description": "Use this drawing for hardware callouts and orientation detail while assembling each drive pod.",
     "image": "images/drive-pod.png",
     "alt": "Engineering drawing of the drive pod subassembly"
   },
   {
-    "title": "Inspect wheel and axle hardware",
-    "description": "Side view detail of the wheel hub, bearing block, and through-shaft. Confirm the bearing seats fully and the shaft is retained on both sides before moving on.",
+    "title": "Build a omni module",
+    "description": "Assemble a omni pod: one per side, two total.",
     "image": "images/step-03.png",
     "alt": "Side view detail of a traction wheel, bearing block, and axle shaft"
   },
   {
     "title": "Mount three wheel modules into the side rail",
-    "description": "Drop three completed wheel modules into one perforated side rail and fasten them through the rail. Repeat to produce a matching second side.",
+    "description": "Drop three completed wheel modules into one perforated side rail and fasten them through the rail. Repeat to produce a mirrored second side. See next slide for different angle.",
     "image": "images/step-01.png",
     "alt": "Three traction wheels installed in one perforated side rail, front-on view"
   },
@@ -42,86 +42,80 @@
     "alt": "Drivetrain with the central electronics-mount belly pan installed"
   },
   {
-    "title": "Verify belly-pan alignment (side view)",
-    "description": "Same assembly viewed from a different corner. Confirm the belly pan sits flat against every standoff with no gaps.",
+    "title": "Add front RHS mounts",
+    "description": "Use T-Brackets on top and bottom to mount front supports",
     "image": "images/step-07.png",
     "alt": "Drivetrain with belly pan installed, alternate angle"
   },
   {
-    "title": "Verify belly-pan alignment (front view)",
-    "description": "Front-quarter view of the drivetrain and belly pan. Use this angle to check that nothing protrudes past the bumper line.",
+    "title": "Add side SHS bars",
+    "description": "Use Bolts to attach SHS in corners",
     "image": "images/step-08.png",
     "alt": "Front-quarter view of the drivetrain with belly pan installed"
   },
   {
     "title": "Lay out the electronics on the belly pan",
-    "description": "Top-down reference for placement of the PDH, breakers, motor controllers, roboRIO, and radio. Lay components out before drilling or fastening anything.",
+    "description": "Top-down reference for placement of the PDH, breakers, motor controllers, roboRIO. Lay components out before drilling or fastening anything.",
     "image": "images/step-09.png",
     "alt": "Top-down view of the electronics layout on the belly pan"
   },
   {
-    "title": "Install the side superstructure panels",
-    "description": "Bolt the two side superstructure plates to the drive base. These panels carry the intake and dispenser hardware in later steps.",
-    "image": "images/step-10.png",
-    "alt": "Two side superstructure panels bolted to the drive base"
-  },
-  {
     "title": "Reference: side-panel exploded view",
-    "description": "Exploded layout of the four superstructure plates showing their orientation and fastener pattern. Use this as a reference if a panel is installed backwards.",
+    "description": "Pay close attention to the layout of the four folded plates showing their orientation and fastener pattern. Use this as a reference if a panel is installed backwards.",
     "image": "images/step-11.png",
     "alt": "Exploded view of the four superstructure side plates"
   },
   {
-    "title": "Populate electronics and side panels",
-    "description": "Side panels fitted with the electronics populated on the belly pan. Confirm wiring routes cleanly between the PDH and each motor controller.",
-    "image": "images/step-12.png",
-    "alt": "Side panels installed with electronics populated on the belly pan, angle A"
+    "title": "Install the side superstructure panels",
+    "description": "Bolt the two side superstructure plates and intake ramp to the drive base. These panels carry the intake and dispenser hardware in later steps.",
+    "image": "images/step-10.png",
+    "alt": "Two side superstructure panels bolted to the drive base"
   },
   {
-    "title": "Side-panel + electronics check (angle B)",
-    "description": "Alternate angle of the same stage. Use this view to confirm fastener locations along the top edge of the side panels.",
+    "title": "Install Left-side Motor",
+    "description": "The motor shaft should have a keyway to hex adapter, with a 50t gear and 24t pulley attached.",
     "image": "images/step-13.png",
     "alt": "Side panels and electronics, alternate angle B"
   },
   {
-    "title": "Side-panel + electronics check (angle C)",
-    "description": "Another angle of the same assembly stage to verify clearance around the motor controllers.",
+    "title": "Install Right-side Motor",
+    "description": "The motor shaft should have a 10t pinon gear mounted, with a key in the keyway, and a retaining ring.",
     "image": "images/step-14.png",
     "alt": "Side panels and electronics, alternate angle C"
   },
   {
-    "title": "Side-panel + electronics check (battery side)",
-    "description": "View from the battery side showing the bay clear of obstructions. Confirm the battery can slide in and out without snagging on wiring.",
+    "title": "Add Indexing Shaft",
+    "description": "This shaft contains in order: Collar, 84t gear, bearing, long spacer, wheel, long spacer, wheel, short spacer, 4x flap wheel, short spacer, wheel, long spacer, wheel, long spacer, bearing, 53t pulley, collar.",
     "image": "images/step-15.png",
     "alt": "Side panels and electronics viewed from the battery bay side"
   },
   {
-    "title": "Add the front intake rollers",
-    "description": "Install the front intake roller assembly between the side panels. A game piece is shown in position to confirm the intake gap is correct.",
+    "title": "Add the upper intake roller",
+    "description": "Install the upper intake roller assembly between the side panels.",
     "image": "images/step-16.png",
     "alt": "Front intake rollers installed with a game piece staged for reference"
   },
   {
-    "title": "Install the upper intake / dispenser shaft",
-    "description": "Fit the top dispenser shaft and its mounting plates above the intake. Make sure the shaft turns freely before mounting the upper guards.",
+    "title": "Install the front intake shaft",
+    "description": "Install the front intake roller assembly between the side panels.",
     "image": "images/step-17.png",
     "alt": "Upper intake and dispenser shaft installed above the front rollers"
   },
   {
-    "title": "Assemble the full intake + dispenser",
-    "description": "Complete intake and dispenser assembly seated on the drivetrain, shown without upper guards so the linkage is visible.",
+    "title": "Assemble the Launcher Shaft",
+    "description": "Ensure steel flywheels are embedded securely inside the wheels.",
     "image": "images/step-18.png",
     "alt": "Full intake and dispenser assembly on the drivetrain, upper guards removed"
   },
   {
-    "title": "Fit the upper guards",
-    "description": "Install the upper coral / note dispenser guards. The robot is now mechanically complete; only final inspection remains.",
+    "title": "Fit the Hood Rails",
+    "description": "Install the upper hood guards.",
     "image": "images/step-19.png",
     "alt": "Upper coral and note dispenser guards installed on the near-complete robot"
   },
   {
-    "title": "Final assembly check",
-    "description": "Fully assembled robot, hero view. Walk around the robot and confirm every subsystem is fastened, wired, and clear of moving parts.",
+    "title": "Add Hopper Storage",
+    "description": "Zip-tie the final polycarbonate plates to the structure. Use velcro to secure the battery door. \nYou now have a fully assembled robot. Walk around the robot and confirm every subsystem is fastened, wired, and clear of moving parts.",
     "image": "images/step-20.png",
     "alt": "Fully assembled WA Robotics 2026 kit robot, hero view"
   }
